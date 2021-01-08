@@ -1,0 +1,79 @@
+RUN1
+
+Est-ce que vous voulez:
+1. Analyser les anagrammes d'un texte donne dans un fichier?
+2. Aide pour le jeu de Scrabble?
+Entrez un caractere different de 1 ou 2 pour arreter: 
+1
+Entrez le nom du fichier: samll_fr.txt
+Il n'y a pas aucun fichier avec ce nom. Essayez encore une fois.
+Entrez le nom du fichier: small_fr.txt
+
+Parmis les mots dans le fichier, les mots suivantes ont le plus grand nombre des anagrammes:
+['mais', 'semaine']
+
+Voici leurs anagrammes:
+Les anagrammmes de mais sont: ['amis', 'misa', 'siam', 'sima']
+Les anagrammmes de semaine sont: ['amnesie', 'anemies', 'animees', 'maniees']
+
+Voici les mots dans le fichiers qui n'ont pas des anagrammes:
+['cette', 'devoir', 'jamais', 'vigueur']
+
+Si vous etes interese s'il y a un mot dans le fichier qui a exactement k anagrammes
+Entrez un entier k: 4
+Voici le mot (mots) dans le fichier avec exactement 4 anagrammes:
+['mais', 'semaine']
+
+RUN 2
+Est-ce que vous voulez:
+1. Analyser les anagrammes d'un texte donne dans un fichier?
+2. Aide pour le jeu de Scrabble?
+Entrez un caractere different de 1 ou 2 pour arreter: 
+2
+Entrez les letteres que vous avez, sans des espaces: voiture
+Est-ce que vous voulez d'aide a former un mot avec 
+1. toutes ces lettres
+2. toutes sauf une des ces lettres?
+1
+Voici les mots avec exactement ces lettres:
+['voiteur', 'voiture']
+
+RUN 3
+Est-ce que vous voulez:
+1. Analyser les anagrammes d'un texte donne dans un fichier?
+2. Aide pour le jeu de Scrabble?
+Entrez un caractere different de 1 ou 2 pour arreter: 
+2
+Entrez les letteres que vous avez, sans des espaces: voiture
+Est-ce que vous voulez d'aide a former un mot avec 
+1. toutes ces lettres
+2. toutes sauf une des ces lettres?
+2
+Les lettres que vous avez donne sont: voiture
+Si on elimine une des ces lettres.
+Sans la lettre en position 1 on a les lettres oiture
+Voici les mots avec exactement ces lettres: oiture
+['iourte', 'tourie']
+Sans la lettre en position 2 on a les lettres viture
+Il n'y a aucun mot avec ces lettres. viture
+Sans la lettre en position 3 on a les lettres voture
+Voici les mots avec exactement ces lettres: voture
+['ouvert', 'touvre', 'trouve', 'vertou', 'vouter', 'voutre']
+Sans la lettre en position 4 on a les lettres voiure
+Il n'y a aucun mot avec ces lettres. voiure
+Sans la lettre en position 5 on a les lettres voitre
+Voici les mots avec exactement ces lettres: voitre
+['ortive', 'revoit']
+Sans la lettre en position 6 on a les lettres voitue
+Il n'y a aucun mot avec ces lettres. voitue
+Sans la lettre en position 7 on a les lettres voitur
+Voici les mots avec exactement ces lettres: voitur
+['ouvrit']
+
+RUN4
+Est-ce que vous voulez:
+1. Analyser les anagrammes d'un texte donne dans un fichier?
+2. Aide pour le jeu de Scrabble?
+Entrez un caractere different de 1 ou 2 pour arreter: 
+5
+Au revoir!
