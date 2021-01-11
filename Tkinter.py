@@ -18,19 +18,19 @@ def click():
         output_anagram = ("Il n'y a aucun mot avec ces lettres.",mot)
     else:
         output_anagram = ("Voici les mots avec exactement ces lettres:",fin_lst)
+    Label(root, text="\nThe Anagrams for "+entered_text,bg='black',fg='white',font='none 12 bold') .grid(row=4, column=0, sticky = W)    
     y = Label(root, text=output_anagram,bg='black',fg='white',font='none 12 bold')
     y.grid(row=5, column=0, sticky = W)
 def leave():
     root.destroy
     exit()
 
-
 #my photo
 photo1 = PhotoImage(file='anagramsgif.png')
 Label (root, image = photo1, bg='black') .grid(row=0, column=0,sticky=W)
 #label
 Label(root, text='Enter the word you would like an anagram for:',bg='black',fg='white',font='none 12 bold') .grid(row=1, column=0, sticky = W)
-Label(root, text="\nThe Anagrams are:",bg='black',fg='white',font='none 12 bold') .grid(row=4, column=0, sticky = W)
+
 #text entry
 textentry= Entry(root, width = 80, bg="white")
 textentry.grid(row=2, column=0, sticky=W)
