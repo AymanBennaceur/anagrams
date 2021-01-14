@@ -43,6 +43,4 @@ Button(root, text='EXIT', width = 6, command = leave) .grid(row=7, column = 0, s
 #run the main loop
 root.mainloop()
 
-print('hello world')
-x = input('whats your namesf')
-print('your name is', x)
+
