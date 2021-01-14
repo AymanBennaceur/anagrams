@@ -1,5 +1,3 @@
-# COPYRIGHT 2020, Vida Dujmovic and Diana Inkpen. All rights reserved.
-# Any unauthorised distribution will constitute an infringement of copyright.
 
 def is_valid_file_name():
     '''()->str or None'''
@@ -35,8 +33,7 @@ def clean_word(word):
     'bornym'
     >>> clean_word("SEO : 5 outils gratuits pour trouver des mots-cles pertinents")
     'seo   outils gratuits pour trouver des motscles pertinents'
-    '''
-    #VOTRE CODE ICI    
+    '''  
     x = word.lower()
     lstx = list(x)
     lst = ['!','.','?',':',',',"'",'"','-','_','\\','(',')','[',']','{','}','%','0','1','2','3','4','5','6','7','8','9','\t','\n']
@@ -61,7 +58,6 @@ def test_letters(w1, w2):
     >>> test_letters("alin", "alpin")
     False
     '''
-    #VOTRE CODE ICI
     if len(w1)!= len(w2):
         return False
     for i in w1:
@@ -88,7 +84,6 @@ def create_clean_sorted_nodupicates_list(s):
 
     '''
 
-    #VOTRE CODE ICI
     cleaned = clean_word(s)
     lst = cleaned.split()
     n = 0
@@ -116,8 +111,6 @@ def word_anagrams(word, wordbook):
     >>> word_anagrams("elephant", wordbook)
     []
     '''
-
-    #VOTRE CODE ICI
     lst = []
     for i in wordbook:
         x = test_letters(word, i)
@@ -140,7 +133,6 @@ def count_anagrams(l, wordbook):
     >>> count_anagrams(["liste","amis", "lapin", "anee", "race", "oreilles"], wordbook)
     [1, 4, 2, 0, 5, 2]
     '''
-    #VOTRE CODE ICI
     lst = []
     for i in l:
         count = 0
@@ -164,8 +156,6 @@ def k_anagram(l, anagcount, k):
     ['lapin', 'oreilles']
 
     '''
-    
-    #VOTRE CODE ICI
     lst = []
     count = 0
     for i in anagcount:
@@ -186,8 +176,7 @@ def max_anagram(l, anagcount):
     >>> max_anagram(["liste","amis", "lapin", "anee", "race", "oreilles"],[1, 4, 2, 0, 5, 2])
     ['race']
     '''
-    
-    #VOTRE CODE ICI
+
     lst = []
     for i in range(len(anagcount)):
         if anagcount[i] == max(anagcount):
@@ -207,8 +196,7 @@ def zero_anagram(l, anagcount):
     >>> zero_anagram(["liste","amis", "lapin", "anee", "race", "oreilles"],[1, 4, 2, 0, 5, 2])
     ['anee']
     '''
-    
-    #VOTRE CODE ICI
+
     lst = []
     for i in range(len(anagcount)):
         if anagcount[i] == 0:
